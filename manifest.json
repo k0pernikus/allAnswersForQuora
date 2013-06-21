@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
     "name": "Read Quora Pages",
-    "version": "0.4",
+    "version": "0.1",
     "description": "Will add the `share=1` to any quora.com question so you will not be bothered by the extremly annoying oh-register-now-you-fool layer anymore and all the answers will be readable",
     "permissions": [
-        "tabs", "*://www.quora.com/*"
+        "*://www.quora.com/*"
     ],
     "background": {
         "persistent": false,
@@ -13,8 +13,8 @@
     "content_scripts": [
         {
             "matches": ["*://www.quora.com/*"],
-            "js": ["components/jquery/jquery.min.js", "main.js"],
-            "run_at": "document_end",
+            "js": ["components/jquery/jquery.min.js", "content.js"],
+            "run_at": "document_start",
             "all_frames": true
         }
     ]
