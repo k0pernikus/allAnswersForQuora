@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Read Quora Pages",
+    "name": "All Answers for Quora",
     "version": "0.1",
-    "description": "Will add the `share=1` to any quora.com question so you will not be bothered by the extremly annoying oh-register-now-you-fool layer anymore and all the answers will be readable",
+    "description": "Tired of the annoying oh-register-now-you-fool layer? About to blacklist quore.com? This little edxtension Will add the `share=1` parameter to any quora.com question page so you will not be bothered by the extremly annoying oh-register-now-you-fool layer anymore and all the answers will be readable.",
     "icons": {
         "16": "icons/icon16.png",
         "48": "icons/icon48.png",
