@@ -13,7 +13,7 @@
     "content_scripts": [
         {
             "matches": ["*://www.quora.com/*"],
-            "js": ["components/jquery/jquery.min.js", "content.js"],
+            "js": ["content.js"],
             "run_at": "document_start",
             "all_frames": true
         }
